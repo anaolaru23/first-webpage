@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    background: linear-gradient(to right, #77a3e6, #c6d9f0);
+}
+
+/* General styles */
+
+.page-container {
+    width: 900px;
+    max-width: 100%;
+    padding: 20px;
+    margin: 20px auto;
+    font-size: 14px;
+}
+
+section {
+    margin-bottom: 32px;
+}
+
+.hobbies {
+    font-size: 18px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    position: relative;
+    text-align: justify;
+}
+
+.section-title-hobbies {
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+/* Header styles */
+
+header {
+    background-image: url("./images/airportIstanbul.jpg");
+    height: 250px;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* Profile styles */
+
+.profile {
+    text-align: center;
+    margin-top: -75px;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border: solid 4px #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.profile-img img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.profile-details {
+    font-size: 16px;
+    margin: 24px 0;
+}
+
+.profile-details h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.tags span {
+    font-size: 12px;
+    background-color: #3d64a6;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Section titles */
+
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Erasmus container */
+
+.erasmus-container {
+    font-size: 14px;
+    background-color:#6086c7;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    padding: 16px;
+
+}
+
+/* Gym container */
+
+.gym-container {
+    font-size: 14px;
+    background-color: #6086c7;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    padding: 16px;
+}
+
+.gym-container ol {
+    padding-left: 20px;
+}
+
+.gym-container li {
+    margin-left: 20px;
+}
+
+/* Friends container */
+
+.friends-container {
+    font-size: 14px;
+    background-color: #6086c7;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    padding: 16px;
+}
+
+
+/* Contact container */
+
+.contact-container {
+    font-size: 14px;
+    background-color:#6086c7;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    padding: 16px;
+}
+
+/* Aligning hobbies images and paragraphs */
+
+
+.hobbies img, video{
+  max-width: 100%;
+    
+}
+
+
+.media-container {
+    display: flex;
+    gap: 20px; /* Spațiu între imagine și video */
+    align-items: center; /* Aliniază imaginea și video-ul pe verticală */
+}
+
+.media-item {
+    display: inline-block; /* Asigură afișarea elementelor în linie */
+    max-width: 48%; /* Ajustează proporțional lățimea */
+    text-align: center; /* Centrează textul de sub imagini */
+}
+
+.media-item img, 
+.media-item video {
+    width: 100%;
+    height: auto; /* Păstrează proporțiile imaginii și video-ului */
+    display: block;
+}
+
+/*
+* p{
+    text-indent: 1%;
+}
+*/
